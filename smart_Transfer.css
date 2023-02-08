@@ -1,0 +1,277 @@
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: sans-serif;
+   background-color: white;
+    background-size: 100%;
+    width: 100%;
+    border-radius: 6px;
+    margin: 0px;
+    
+
+}
+header{
+    background-image: url(bk3.png);
+    background-size: 100%;
+    height: 70px;
+    width: 100%;
+    
+      } 
+.heading{
+  font-family: "Roboto",sans-serif !important;
+font-size: 13px;
+text-rendering: geometricPrecision;
+color: #fff;
+font-weight: 100;
+height: 70px;
+display: flex;
+align-items: center;
+   
+}
+h1::shadow
+{
+color:30px black;
+
+}
+#logo{
+    font-family: "Roboto",sans-serif !important;
+    font-size: 20px;
+    text-rendering: geometricPrecision;
+    color: #fff;
+    font-weight: 300;
+    height: 100%;
+    width: 80px;
+
+
+   
+   
+}
+#img{
+    size: 70px 70px;
+}
+#slogan{
+    float: right;
+}
+
+.nav{
+   
+    overflow: hidden;
+    font-size: 20px;
+    padding-left: 450px;
+    
+}
+.opt{
+    padding: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+div a[href]:hover
+{
+    color: darkgoldenrod;
+}
+#sec1{
+    height: 85vh;
+    width:100%;
+     background-image: url(bk2.png); 
+  background-size: 100%;
+  border-top: 0.1em solid black;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  }
+.box1 
+{
+    border:0.6px solid darkgrey;
+    background-color:white;
+    width: 320px;
+    height: 390px;
+    float: left;
+    border-radius: 12px;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+
+
+#note{
+    width:320px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: 300;
+    padding-left: 11px;
+
+}
+.inbox{
+    width: 280px;
+    margin: 20px;
+    border-radius: 10px;
+    height: 230px;
+    border: 3px dotted darkgrey;
+}
+input[type="file"]{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 70px;
+    padding-left: 12px;
+    width: 270px;
+    
+}
+.sub{
+    width: 250px;
+    height:180px ;
+    padding-left: 62px;
+    padding-top: 40px;
+   
+}
+input[type="submit"]
+{
+font-size:25px ;
+border-radius: 18px;
+background-color:rgb(255, 123, 0);
+width: 150px;
+height:40px;
+border: 0ch;
+color: #fff;
+
+}
+input[type="submit"]:hover
+{
+    background-color: chocolate; 
+    cursor:pointer;
+}
+#para{
+    
+ padding-top: 55px;
+ float: right;
+    height: 465px;
+    width: 55%;
+ }
+ #h1{
+    width: 98%;
+    height: 150px;
+    color: white;
+    font-size: 30px;
+    text-rendering: geometricPrecision;
+    padding-top: 30px;
+    line-height: 40px;
+ }
+ #h2{
+    font-family: "Roboto",sans-serif !important;
+    width: 80%;
+    height: 85px;
+    color:#fff;
+    line-height: 40px;
+    font-size: 17px;
+ }
+ #table{
+    width: 100%;
+    height: 180px;
+ }
+ #row1{
+    width: 100%;
+    height: 17px;
+    color:white;
+    font-size: 20px;
+  }
+  #left1{
+    overflow: hidden;
+    float: left;
+  }
+  #right1{
+    padding-left: 150px;
+    overflow: hidden;
+    float: right;
+  }
+ #row2{
+    width: 100%;
+    height: 17px;
+    color:white;
+    font-size: 20px;
+  }
+  #left2{
+    overflow: hidden;
+    float: left;
+  }
+  #right2{
+    padding-left: 130px;
+    overflow: hidden;
+    float: right;
+  }
+#sec2{
+    margin-top: 130px;
+    height: 250px;
+    width: 100%;
+    font-size: 18px;
+}
+.secbox{
+    height: 200px;
+    width: 50%;
+   
+    margin-top: 24px;
+    margin-left: 25%;
+}
+.icon{
+    overflow: hidden;
+    float: left;
+    height: 130px;
+    width: 130px;
+   
+    margin-right: 40px;
+}
+.icon2{
+    overflow: hidden;
+    float: right;
+    height: 130px;
+    width: 130px;
+   
+    margin-left: 40px;
+}
+#sec3{
+   
+    margin-top: 24px;
+    height: 250px;
+    width: 100%;
+    font-size: 18px;
+}
+#sec4{
+    margin-top: 24px;
+    height: 250px;
+    width: 100%;
+    font-size: 18px;
+}
+#sec5{
+    margin-top: 24px;
+    height: 270px;
+    width: 100%;
+    font-size: 18px;
+
+   
+}
+
+footer{
+    background-image: url(bk3.png);
+    background-size: 100%;
+    height: 55px;
+    width: 100%;
+}
+footer a{
+    color: white;
+    overflow: hidden;
+    font-size: 20px;
+    text-decoration: none;
+    float: left;
+    padding: 25px;
+    padding-top: 14px;
+   
+}
+footer a[href]:hover
+{
+    color: darkgoldenrod;
+}
+
+
+
+
+

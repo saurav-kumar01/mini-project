@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+   background-color: white;
+    background-size: 100%;
+    width: 100%;
+    border-radius: 6px;
+    margin: 0px;
+    height: auto;
+
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-image: url(bk3.png);
+    background-size: 100%;
+    border-bottom: 1.5px solid black;
+}
+#heading{
+width: 20%;
+height: 70px;
+}
+#heading h1{
+    color: white;
+    text-align: center;
+    float: left;
+    padding-left: 20px;
+    
+}
+section{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-size: 100%;
+    
+}
+#content{
+    float: left;
+
+    width: 60%;
+    
+    height: 99vh;
+}
+#content h2{
+    padding: 30px;
+    font-size: 22px;
+    color: rgb(87, 86, 86);
+    text-align: center;
+}
+#logo{
+    float: right;
+    width: 40%;
+   padding-top: 80px;
+   height: 99vh;
+}
+#logo img{
+    width: 90%;
+    height: 85%;
+}
+footer{
+    height: 55px;
+    width: 100%;
+    background-image: url(bk3.png);
+    background-size: 100%;
+    
+    }
+    
+    footer a{
+        font-size: 20px;
+        padding: 25px;
+            
+        text-decoration: none;
+        color: white;
+
+    }
+    footer a[href]:hover
+    {
+        color: darkgoldenrod;;
+    }
+#foot{
+    height: 55px;
+    width: 40px;
+    padding-top: 14px;
+}
